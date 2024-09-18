@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event of Document</title>
+
+</head>
+<body>
+    <h1 class="content">Event of document</h1>
+    <button>click me</button>
+    <!-- option 1 -->
+    <button onclick="document.body.style.backgroundColor= 'red'">Make red</button>
+    <!-- option 2 -->
+    <button onclick="makeYellow()">Make yellow</button>
+    <!-- option 3 -->
+    <button id="make-blue">Make blue</button>
+    <button id="make-purple">Make purple</button>
+    <!-- option 4 -->
+     <button id="make-pink">Make pink</button>
+     <button id="make-green">Make green</button>
+     <button id="make-tomato">Make tomato</button>
+
+     <!--   Event  listener -->
+     <section>
+        <h1>Add event handaler</h1>
+        <h3 id="love">I Love you</h3>
+        <button onclick="textChange()">Change the text</button>
+        <br>
+        <br>
+        <button id="hate">Change the text</button>
+        <div>
+            <p id="paraghraph">Rasel viper</p>
+            <input id="input" type="text">
+            <button id="btn-update">Update</button>
+        </div>
+        <!-- comment add -->
+        <div id="comment-content">
+            <h1>Please add your comment</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum harum nemo cum dolorum ex eum itaque nostrum, quia at velit assumenda mollitia saepe voluptates aliquid perspiciatis veniam placeat atque ratione.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum harum nemo cum dolorum ex eum itaque nostrum, quia at velit assumenda mollitia saepe voluptates aliquid perspiciatis veniam placeat atque ratione.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum harum nemo cum dolorum ex eum itaque nostrum, quia at velit assumenda mollitia saepe voluptates aliquid perspiciatis veniam placeat atque ratione.</p>
+        </div>
+        <textarea name="" id="new-comment" cols="90" rows="5"></textarea>
+        <br>
+        <button id="btn-post">Post</button>
+     </section>
+     <section>
+        <div id="container">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi perspiciatis, provident reprehenderit ipsum hic soluta minus aut qui adipisci eligendi nisi quam earum voluptatum aliquam voluptatibus nam quaerat exercitationem ea?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eaque accusantium explicabo, perferendis porro assumenda libero ex ipsa aliquam nulla sit atque obcaecati repellat, enim hic minus? Nihil, omnis quidem!</p>
+        </div>
+        <textarea name="" id="last-comment" cols="90" rows="5"></textarea>
+        <br>
+        <button id="btn-submit">Submit</button>
+     </section>
+     <div>
+        <h1 id="info">Delete all information</h1>
+        <input id="delete-confirm" type="text" placeholder="Please type delete">
+        <button id="btn-delete">Delete</button>
+     </div>
+
+    <script src="js/event.js"></script>
+</body>
+</html>
